@@ -1,0 +1,14 @@
+fastapi>=0.85.0
+uvicorn[standard]>=0.18.0
+pydantic>=1.10
+torch>=1.12.0
+numpy>=1.23
+pandas>=1.5
+aiohttp>=3.8
+requests>=2.28
+python-dotenv>=0.21
+sqlalchemy>=1.4
+alembic>=1.9
+pytest>=7.1
+pytest-asyncio>=0.20
+httpx>=0.23

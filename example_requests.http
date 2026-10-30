@@ -1,0 +1,19 @@
+### Health
+GET http://localhost:8000/api/health
+
+### Predict
+POST http://localhost:8000/api/predict
+Content-Type: application/json
+
+{
+  "events": [
+    {"contract": "0xabc", "nonce": 1, "value": 12.3, "gas_used": 21000, "timestamp": 1630000000},
+    {"contract": "0xabc", "nonce": 2, "value": 500.0, "gas_used": 250000, "timestamp": 1630000002}
+  ]
+}
+
+### Train
+POST http://localhost:8000/api/train
+Content-Type: application/json
+
+{"epochs": 3, "lr": 0.001}
